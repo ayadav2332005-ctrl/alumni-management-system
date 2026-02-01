@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <h2>Dashboard</h2>
+  <a href="index.html">Logout</a>
+</div>
+
+<div class="container grid">
+
+  <div class="card">
+    <h3>Post Achievement</h3>
+    <input id="title" placeholder="Title">
+    <textarea id="description" placeholder="Description"></textarea>
+    <button onclick="postAchievement()">Post</button>
+  </div>
+
+  <div class="card">
+    <h3>Post Job Referral</h3>
+    <input id="company" placeholder="Company">
+    <input id="role" placeholder="Role">
+    <textarea id="jobdesc" placeholder="Job Description"></textarea>
+    <button onclick="postJob()">Post</button>
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="card timeline">
+    <h3>Achievement Timeline</h3>
+
+    <div class="timeline-item">
+      <h4>Joined Infosys</h4>
+      <p>Software Engineer – 2024</p>
+    </div>
+
+    <div class="timeline-item">
+      <h4>AWS Certified</h4>
+      <p>Cloud Practitioner</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
